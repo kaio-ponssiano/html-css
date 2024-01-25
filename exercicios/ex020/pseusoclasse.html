@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color:rgb(208, 255, 0);
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px ;
+        }
+        
+        div:hover{
+            color: blue;
+            background-color: blue;
+        }
+        
+        a:hover#d1{
+            
+            color: yellow;
+        }
+        
+       a:hover{
+        color: blueviolet;
+        background-color: aqua;
+        text-decoration: underline;
+       }
+
+       div:hover > p {
+        display: block;
+        color: black;
+        background-color: aqua;
+       }
+       
+    </style>
+</head>
+<body>
+   <link rel="stylesheet" href="style.css">
+
+    <div id="d1">01
+        <p>escondido...</p>
+    </div>
+    <div id="d2">02
+        <p style="color: yellow;">nada</p>
+    </div>
+    <div id="d3">03
+        <p style="color: yellow;">nada</p>
+    </div>
+
+    
+        <p style="text-align: end;"><a href="hover.html" id="d4">Primeira página</a></p>
+    
+    <p style="text-align: end;"><a href="link.html" id="d4">Terceira página</a></p>
+</body>
+</html>

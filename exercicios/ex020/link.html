@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LInk</title>
+    <style>
+        a:after{
+            content: ' (link)';
+            text-decoration: none;
+            color: red;
+            font-weight: normal;
+        }
+        .especial:before{
+            content: "(clica)";
+        }
+        .especial:after{
+            content: "(clica)";
+        }
+    </style>
+</head>
+<body>
+<link rel="stylesheet" href="style.css">
+    <h1>Personalizando links</h1>
+    <p> pesquisar simbolos do htmls e podemos colocar após usando a tag a:after - content nos links bastando copiar o código e colar 
+    </p>
+
+
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do Cursoemvideo</a></li>
+
+
+    </ul>
+    <p style="text-align: end;" ><a href="hover.html" id="d4">Primeira página</a></p>
+    <p style="text-align: end;"><a href="pseusoclasse.html" id="d4">Segunda página</a></p>
+</body>
+</html>

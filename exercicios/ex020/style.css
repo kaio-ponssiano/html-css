@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    color: rgb(61, 19, 100);
+    background-color: aqua;
+}
+
+a:visited{
+    color: rgb(39, 170, 72);
+}
+
+a:active{
+    color: rgb(255, 255, 0);
+    background-color: beige;
+}
+
+a:hover#d4{
+    color: white;
+    background-color: black;
+    }

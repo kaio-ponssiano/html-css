@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+        div:hover {
+            background-color: red;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto a abaixo</p>
+    <div>
+        passe o mouse por aqui
+        <p>ESCONDIDO....</p>
+    </div>
+   
+   
+    <p style="text-align: end;"><a href="pseusoclasse.html" id="d4">Segunda página</a></p>
+    <p style="text-align: end;"><a href="link.html" id="d4">Terceira página</a></p>
+</body>
+</html>
