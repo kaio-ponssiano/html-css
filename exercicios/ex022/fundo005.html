@@ -6,17 +6,25 @@
     <title>Posicionamento</title>
     <style>
           body{
-    height: 100vh;
-    background-color: black;
+    /* background-color: black;
     background-image: url(imagens/wallpaper002.jpg);
     background-position: center top;
     background-repeat: no-repeat;
+    background-attachment: fixed; */
+    
+    
+    background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed;
     background-size: 100%;
    }
-    
+
+    /* tudo podemos resumir em uma tag única --> background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed.
+        ---> colocar o backgound-size (usando 100% ou o cover) somente depois desse shorthand para ele ocupar toda a tela, antes dele não funciona.
+    */
+
+     
    main{
     background-color: white;
-    width: 400px;
+    max-width: 500px;
     padding: 10px;
     margin: auto;
     border: 1px solid darkblue;
@@ -42,7 +50,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur earum voluptas odit illum harum praesentium cumque doloremque iure hic rerum, magni delectus consectetur tenetur laboriosam explicabo? Corrupti veritatis sint fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nulla dolores ratione recusandae expedita qui perspiciatis nihil tempora obcaecati alias, eveniet, repellat delectus. Optio nihil voluptatibus debitis atque impedit provident? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus fugit quia, voluptatem quisquam illo aut molestiae atque nemo veritatis, sit quasi rerum odio laudantium culpa, odit nobis sed sunt accusantium.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur earum voluptas odit illum harum praesentium cumque doloremque iure hic rerum, magni delectus consectetur tenetur laboriosam explicabo? Corrupti veritatis sint fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nulla dolores ratione recusandae expedita qui perspiciatis nihil tempora obcaecati alias, eveniet, repellat delectus. Optio nihil voluptatibus debitis atque impedit provident? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus fugit quia, voluptatem quisquam illo aut molestiae atque nemo veritatis, sit quasi rerum odio laudantium culpa, odit nobis sed sunt accusantium.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur earum voluptas odit illum harum praesentium cumque doloremque iure hic rerum, magni delectus consectetur tenetur laboriosam explicabo? Corrupti veritatis sint fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nulla dolores ratione recusandae expedita qui perspiciatis nihil tempora obcaecati alias, eveniet, repellat delectus. Optio nihil voluptatibus debitis atque impedit provident? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus fugit quia, voluptatem quisquam illo aut molestiae atque nemo veritatis, sit quasi rerum odio laudantium culpa, odit nobis sed sunt accusantium.</p>
-        
+
 
     </main>
 </body>
