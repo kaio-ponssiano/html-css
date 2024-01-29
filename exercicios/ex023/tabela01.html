@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            height: 400px;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+            
+        }
+
+        td.dado{
+            background-color: yellow;
+        }
+
+        tr.linha{
+            background-color: lightgray;
+        }
+
+        p.pagina{
+            display: block;
+            position: absolute;
+            left: 85%;
+            bottom: 10%;
+        }
+
+        p.pagina > a {
+            text-decoration: none;
+            background-color: rgb(231, 229, 229);
+            color: black;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        p.pagina > a:hover{
+            color: red;
+            background-color: white;
+        }
+
+        p.pagina > a:active{
+            background-color: black;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <h2>Hierarquia de Tabelas</h2>
+    <p>Tag table e ai temos - Table Row -- <strong>tr</strong> (linhas de tabela) >> Table Header (cabeçalho de tabela) >> Tabela Data -- <strong>td</strong> (dados da tabela)</p>
+    <table>
+        <tr class="linha">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td class="dado">A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+
+        <p class="pagina"><a href="tabela02.html">Próxima página de tabela</a></p>
+    </table>
+</body>
+</html>
