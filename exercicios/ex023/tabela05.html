@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coluna</title>
+    <style>
+        table{
+            padding: 5px;
+            border-radius: 3px;
+            width: 400px;
+            height: 200px;
+            margin: auto;
+
+        }
+
+        td, th{
+            border: 1px solid black;
+        }
+
+        .vermelho{
+            background-color: red;
+            color: white;
+        }
+
+        .amarelo{
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Configuração expecífica de coluna</h1>
+    <table>
+        <colgroup>
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tbody>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>idade</th>
+                <th>Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>21</td>
+                <td>jornalista</td>
+            </tr>
+            <tr>
+                <td>Cleiton</td>
+                <td>M</td>
+                <td>24</td>
+                <td>Tecnico</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>16</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>40</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>23</td>
+                <td>Nutricionista</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
