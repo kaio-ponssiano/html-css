@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do Iframe</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(187, 238, 255);
+        }
+
+        ul > li > a{
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        ul > li > a:hover{
+            color: red;
+            transition-duration: 1.5s;
+            background-color: rgb(5, 201, 201);
+        }
+
+        ul > li > a:active{
+            color: yellow;
+            transition-duration: 0s;
+        }
+
+
+        iframe#tela{
+            width: 95%;
+            height: 300px;
+            border: 2px solid black;
+        }
+
+        h1{
+            background-color: rgb(1, 104, 1);
+            box-shadow: 2px 3px 8px black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+
+        p{
+            padding: 15px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta consectetur praesentium dolorem atque, blanditiis unde laborum temporibus in, odio voluptates adipisci quam quidem, reiciendis inventore qui dignissimos laboriosam beatae ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit magnam, nam consequuntur cupiditate fugit sequi maiores iusto minus illum voluptas quasi et aut voluptates deleniti, dignissimos distinctio rem incidunt.</p>
+    
+    <ul>
+        <li><a href="pagina-extras/pagina01.html" target="frame">Primeira página</a></li>
+        <li><a href="pagina-extras/pagina02.html" target="frame">Segunda página</a></li>
+        <li><a href="pagina-extras/pagina03.html" target="frame">Terceira página</a></li>
+    </ul>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt cumque animi distinctio soluta, neque incidunt dolorum eius eveniet in perspiciatis voluptas accusantium ab nostrum sint impedit molestiae fugit similique porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium architecto pariatur quo reiciendis eligendi cupiditate corrupti suscipit est sit delectus! Nisi delectus doloribus deserunt minima dolore in optio corporis quo!</p>
+    
+    <iframe id="tela" src="" frameborder="0" name="frame"> Infelizmente seu navegador não pe compatível com isso</iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quasi, nobis, iure eveniet dolorum ea accusantium quod enim sunt quia suscipit atque optio. Rerum esse maxime debitis tempore aliquid eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum minima ipsa voluptatum dolorem architecto, voluptas nulla saepe deleniti commodi mollitia dicta nisi nesciunt incidunt quibusdam placeat doloremque impedit illo et! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem odit tempore velit autem modi recusandae, quos quibusdam ipsam neque id, voluptas tempora alias consequatur ex possimus commodi laborum itaque dolorum?</p>
+</body>
+</html>
