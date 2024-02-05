@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+
+    <!-- 
+        action="cadastro.php" é para onde ira ser enchaminhado as informações sendo para outro tipo de linguagem como o php (não sei php, estudar proximos cursos)
+    -->
+
+    <!-- 
+        name - usado para se identificar no php ou html
+        id - usado mais no JavaScript
+     -->
+
+     <!-- 
+        id e label devem estar conectados para melhorar a experiência (é identificado a caixa ao nome) 
+    -->
+
+    <form action="cadastro.php" autocomplete="off">
+        <label for="inome"><p>nome:</label>
+            <input type="text" name="nome" id="inome"></p>
+        <label for="isobrenome"><p>Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="enviar"></p>
+    </form>
+</body>
+</html>
